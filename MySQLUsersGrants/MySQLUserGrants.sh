@@ -32,7 +32,7 @@ dbreport()
    do 
      echo "-- $u"; mysql -u $DBUSER -p$DBPASS -h $DBHOST --silent --skip-column-names --execute "show grants for $u" | sed 's/$/;/'
      echo "--"
-  done >> db_users_report-$DBPASS-`date +%Y%m%d`.txt
+  done >> db_users_report-$DBHOST-`date +%Y%m%d`.txt
 }
 
 
