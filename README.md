@@ -1,3 +1,3 @@
 # AmelottiTools
 Ferramentas e scripts diversos para automação de processos
-[teste](/EC2StartStopLambda)
+[teste](/EC2StartStopLambda){:target="_blank"}
